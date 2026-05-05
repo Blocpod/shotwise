@@ -1,0 +1,6 @@
+# Toy/reduced 2-qubit H2-like Hamiltonian used for package validation.
+-1.052373245772859 []
+0.39793742484318045 [Z0]
+-0.39793742484318045 [Z1]
+-0.01128010425623538 [Z0 Z1]
+0.18093119978423156 [X0 X1]

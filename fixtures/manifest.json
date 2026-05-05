@@ -1,0 +1,24 @@
+{
+  "fixtures": [
+    {
+      "name": "h2_toy_reduced_openfermion",
+      "path": "fixtures/h2_toy_reduced_openfermion.txt",
+      "type": "toy_reduced_qubit_hamiltonian",
+      "num_qubits": 2,
+      "term_count": 5,
+      "provenance": "Internal documented validation fixture. Not a full molecular chemistry specification.",
+      "notes": "Used for ansatz validation, grouped measurement, shot-noise, and readout-mitigation tests."
+    }
+  ],
+  "policy": {
+    "external_molecular_fixtures": "Must include geometry, basis, mapping, active-space/tapering choices, source, and generation script."
+  },
+  "generators": [
+    {
+      "name": "lih_sto3g_jw_openfermion_generator",
+      "script": "scripts/generate_lih_openfermion.py",
+      "status": "optional_dependency_required",
+      "notes": "Generates a LiH/STO-3G Jordan-Wigner fixture if OpenFermion, OpenFermion-PySCF, and PySCF are installed."
+    }
+  ]
+}

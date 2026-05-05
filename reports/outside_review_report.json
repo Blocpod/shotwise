@@ -1,0 +1,22 @@
+{
+  "title": "Outside Review Report",
+  "summary": "Manual report generation check.",
+  "records": [
+    {
+      "name": "Outside Review Manual Report Generation",
+      "status": "pass",
+      "metrics": {
+        "manual_generation": 1,
+        "version_expected": "0.9.3"
+      },
+      "notes": "Generated in-process to avoid subprocess startup artifacts."
+    }
+  ],
+  "metadata": {
+    "timestamp_utc": "2026-05-05T18:21:38Z",
+    "python_version": "3.13.5",
+    "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+    "package_version": "0.9.3",
+    "mode": "outside_review_manual"
+  }
+}

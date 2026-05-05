@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use Shotwise, please cite the repository and associated report."
+title: "Shotwise: VQA Estimator Lab"
+version: "1.0.0rc1"
+date-released: "2026-05-05"
+authors:
+  - name: "Shotwise Contributors"
+repository-code: "https://github.com/Blocpod/shotwise"

@@ -1,0 +1,62 @@
+{
+  "complete": 8,
+  "total": 11,
+  "score": 0.7272727272727273,
+  "items": [
+    {
+      "name": "Correctness tests",
+      "complete": true,
+      "notes": "Core simulator, grouping, mitigation, reporting tests are present."
+    },
+    {
+      "name": "Toy benchmark fixture",
+      "complete": true,
+      "notes": "Documented toy/reduced H2 fixture included."
+    },
+    {
+      "name": "External molecular fixture",
+      "complete": false,
+      "notes": "Generator script exists; verified generated fixture is deferred from v1.0."
+    },
+    {
+      "name": "Performance benchmark",
+      "complete": true,
+      "notes": "14-qubit benchmark script included."
+    },
+    {
+      "name": "Report generator",
+      "complete": true,
+      "notes": "Markdown/JSON/CSV/HTML reporting supported."
+    },
+    {
+      "name": "Optional framework adapter",
+      "complete": true,
+      "notes": "Qiskit adapter included, dependency-gated."
+    },
+    {
+      "name": "Pilot-user guide",
+      "complete": true,
+      "notes": "Reproducibility guide included."
+    },
+    {
+      "name": "External reproduction kit",
+      "complete": true,
+      "notes": "Reviewer protocol and reproduction runner included."
+    },
+    {
+      "name": "Apache-2.0 licensing",
+      "complete": true,
+      "notes": "LICENSE and NOTICE included."
+    },
+    {
+      "name": "Joint-measurement synthesis",
+      "complete": false,
+      "notes": "Planner flags requirement; synthesis not implemented."
+    },
+    {
+      "name": "Hosted CI run",
+      "complete": false,
+      "notes": "CI workflow template exists, but hosted run still pending."
+    }
+  ]
+}

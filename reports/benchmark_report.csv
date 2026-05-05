@@ -1,0 +1,9 @@
+record_name,status,metric,value,notes
+Package Validation Snapshot,pass,tests_expected,45,Fast report mode records release metadata. Run pytest and latency benchmarks separately for full validation.
+Package Validation Snapshot,pass,core_features,9,Fast report mode records release metadata. Run pytest and latency benchmarks separately for full validation.
+Package Validation Snapshot,pass,release,1.0.0rc1,Fast report mode records release metadata. Run pytest and latency benchmarks separately for full validation.
+Estimator Optimization Stack,implemented,qwc_grouping,1,"Includes compression, grouping, readout mitigation, report generation, and reproduction tooling."
+Estimator Optimization Stack,implemented,general_commuting_grouping,1,"Includes compression, grouping, readout mitigation, report generation, and reproduction tooling."
+Estimator Optimization Stack,implemented,readout_mitigation,1,"Includes compression, grouping, readout mitigation, report generation, and reproduction tooling."
+Estimator Optimization Stack,implemented,optional_qiskit_adapter,1,"Includes compression, grouping, readout mitigation, report generation, and reproduction tooling."
+Estimator Optimization Stack,implemented,external_reproduction_kit,1,"Includes compression, grouping, readout mitigation, report generation, and reproduction tooling."

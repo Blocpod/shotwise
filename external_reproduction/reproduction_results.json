@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]",
+    "platform": "macOS-26.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "timestamp_utc": "2026-05-05T19:00:04Z",
+    "mode": "fast"
+  },
+  "commands": [
+    {
+      "command": [
+        "/Users/countergrind/Documents/Codex/2026-05-05/files-mentioned-by-the-user-blocpod/vqa_estimator_lab_v1_0_rc1/.venv/bin/python",
+        "-m",
+        "pytest",
+        "tests",
+        "-q"
+      ],
+      "return_code": 0,
+      "elapsed_seconds": 0.3275151659036055,
+      "stdout_tail": "...............................................                          [100%]\n47 passed in 0.16s\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Users/countergrind/Documents/Codex/2026-05-05/files-mentioned-by-the-user-blocpod/vqa_estimator_lab_v1_0_rc1/.venv/bin/python",
+        "benchmarks/generate_report.py"
+      ],
+      "return_code": 0,
+      "elapsed_seconds": 0.11600683303549886,
+      "stdout_tail": "Wrote {'markdown': '/Users/countergrind/Documents/Codex/2026-05-05/files-mentioned-by-the-user-blocpod/vqa_estimator_lab_v1_0_rc1/reports/benchmark_report.md', 'json': '/Users/countergrind/Documents/Codex/2026-05-05/files-mentioned-by-the-user-blocpod/vqa_estimator_lab_v1_0_rc1/reports/benchmark_report.json', 'csv': '/Users/countergrind/Documents/Codex/2026-05-05/files-mentioned-by-the-user-blocpod/vqa_estimator_lab_v1_0_rc1/reports/benchmark_report.csv', 'html': '/Users/countergrind/Documents/Codex/2026-05-05/files-mentioned-by-the-user-blocpod/vqa_estimator_lab_v1_0_rc1/reports/benchmark_report.html'}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Users/countergrind/Documents/Codex/2026-05-05/files-mentioned-by-the-user-blocpod/vqa_estimator_lab_v1_0_rc1/.venv/bin/python",
+        "benchmarks/generate_dashboard.py"
+      ],
+      "return_code": 0,
+      "elapsed_seconds": 0.08008358394727111,
+      "stdout_tail": "Wrote /Users/countergrind/Documents/Codex/2026-05-05/files-mentioned-by-the-user-blocpod/vqa_estimator_lab_v1_0_rc1/reports/dashboard.html\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": [
+        "/Users/countergrind/Documents/Codex/2026-05-05/files-mentioned-by-the-user-blocpod/vqa_estimator_lab_v1_0_rc1/.venv/bin/python",
+        "benchmarks/generate_scorecard.py"
+      ],
+      "return_code": 0,
+      "elapsed_seconds": 0.07909945794381201,
+      "stdout_tail": "Wrote /Users/countergrind/Documents/Codex/2026-05-05/files-mentioned-by-the-user-blocpod/vqa_estimator_lab_v1_0_rc1/reports/v1_readiness_scorecard.md\nWrote /Users/countergrind/Documents/Codex/2026-05-05/files-mentioned-by-the-user-blocpod/vqa_estimator_lab_v1_0_rc1/reports/v1_readiness_scorecard.json\n",
+      "stderr_tail": ""
+    }
+  ],
+  "overall_pass": true
+}

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shotwise"
+version = "1.0.0rc1"
+description = "Estimator optimization and VQA validation lab for finite-shot quantum simulation research."
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "scipy>=1.10",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[project.optional-dependencies]
+accel = ["numba>=0.59"]
+qiskit = ["qiskit"]
+chemistry = ["openfermion", "openfermionpyscf", "pyscf"]
+
+[project.urls]
+Homepage = "https://github.com/Blocpod/shotwise"
+Documentation = "https://github.com/Blocpod/shotwise/tree/main/docs"
+Source = "https://github.com/Blocpod/shotwise"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vqa_estimator_lab*"]
